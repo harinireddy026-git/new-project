@@ -1,0 +1,28 @@
+---
+# This is a comment. It starts with a hashtag.
+
+# 1. Simple Key-Value Pairs (Scalars)
+app_name: "My Awesome App"
+version: 1.0
+port_number: 8080
+is_production: false
+
+# 2. Objects / Dictionaries (Nested Mappings)
+database:
+  host: "localhost"
+  port: 5432
+  username: "admin"
+
+# 3. Lists / Arrays (Sequences)
+supported_features:
+  - authentication
+  - real_time_notifications
+  - data_export
+
+# 4. A List of Objects (Mixed Structure)
+team_members:
+  - name: "Alice"
+    role: "Developer"
+  - name: "Bob"
+    role: "Designer"
+...
